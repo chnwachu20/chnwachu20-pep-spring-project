@@ -28,9 +28,7 @@ timePostedEpoch long,
 foreign key (postedBy) references Account(accountId)
 ```
 
-# Spring Technical Requirement
-
-## Project must leverage the Spring Boot Framework
+# Spring Overview
 
 Java classes have been provided, but your entire project MUST leverage the Spring framework.
 In addition to functional test cases, "SpringTest" will verify that you have leveraged the Spring framework, Spring Boot, Spring MVC, and Spring Data.
